@@ -63,3 +63,8 @@
   background-color: #8a2b06;
   color: white;
 }
+
+.obs-info {
+  color: red;
+  text-align: center
+}

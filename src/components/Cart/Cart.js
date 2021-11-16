@@ -97,11 +97,13 @@ const Cart = (props) => {
     </Fragment>
   );
 
-  const isSubmittingModalContant = <p>Sending Order Data...</p>;
+  const isSubmittingModalContant = (
+    <p>Sending "order data" to the backend...</p>
+  );
 
   const didSubmitModalContent = (
     <Fragment>
-      <p>Successfully sent the order!</p>
+      <p>Successfully sent the order to the backend!</p>
       <div className={classes.actions}>
         <button className={classes.button} onClick={props.onClose}>
           Close
