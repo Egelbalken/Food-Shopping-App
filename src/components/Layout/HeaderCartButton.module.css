@@ -57,3 +57,63 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 852px) {
+  .button {
+    padding: 0.40rem 1rem;
+    font-size: 13px;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1336px) {
+  .button {
+    padding: 0.60rem 1.5rem;
+    font-size: 13px;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .button {
+    padding: 0.40rem 1rem;
+    font-size: 13px;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .button {
+    padding: 0.30rem 0.75rem;
+    font-size: 13px;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+    border-radius: 25px;
+    margin-right: 0.15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    padding: 0.20rem 0,50rem;
+    font-size: 13px;
+    transition:0.5s;
+  }
+  .badge {
+    padding: 0.15rem 0.75rem;
+    margin-left: 1rem;
+  }
+}

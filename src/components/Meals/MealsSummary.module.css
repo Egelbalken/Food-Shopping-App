@@ -16,3 +16,30 @@
   font-size: 2rem;
   margin-top: 0;
 }
+
+
+@media screen and (max-width: 1320px) {
+
+  .summary h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  .summary{
+    font-size: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 670px) {
+
+  .summary h2 {
+    font-size: 1.35rem;
+    margin-top: 30px;
+  }
+
+  .summary{
+    font-size: 13px;
+  }
+  
+}
