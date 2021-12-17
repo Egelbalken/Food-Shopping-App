@@ -15,7 +15,7 @@ const Header = (props) => {
             src={imonitLogo}
             alt="imonit"
           ></img>
-          Imont it Meals
+          Imonit Meals
         </h1>
         <HeaderCartButton onClick={props.onShowCart} />
       </header>
