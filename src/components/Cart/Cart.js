@@ -23,7 +23,8 @@ const Cart = (props) => {
   };
 
   const cartItemAddHandler = (item) => {
-    cartCtx.addItem(item);
+    // Added to brake the times the sum error.
+    cartCtx.addItem({ ...item, amount: 1 });
   };
 
   const orderHandler = () => {
