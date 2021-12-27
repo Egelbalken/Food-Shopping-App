@@ -22,6 +22,7 @@ const Cart = (props) => {
     cartCtx.removeItem(id);
   };
 
+  // Adds and spred the amount by bye one.
   const cartItemAddHandler = (item) => {
     // Added to brake the times the sum error.
     cartCtx.addItem({ ...item, amount: 1 });
